@@ -1,0 +1,291 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+
+body{
+
+background:#26191A;
+color:#893a0a;
+
+}
+
+
+
+header{
+
+position:fixed;
+top:0;
+width:100%;
+background:#E8E0E0;
+padding:20px;
+
+}
+
+
+nav{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+}
+
+
+
+.logo{
+
+color:rgb(6,71,58);
+font-size:30px;
+
+}
+
+
+nav ul{
+
+display:flex;
+gap:25px;
+list-style:none;
+
+}
+
+
+nav a{
+
+color:rgb(6,71,58);
+text-decoration:none;
+
+}
+
+
+nav a:hover{
+
+color:#E8E0E0;
+
+}
+
+
+
+
+section{
+
+padding:40px 10%;
+
+}
+
+
+
+
+.hero{
+    min-height:80vh;
+    display:flex;
+    align-items:center;
+
+}
+
+
+.hero-text{
+    transform: translateY(-50px);
+}
+
+
+.hero h1{
+
+font-size:60px;
+color:#893a0a;
+}
+
+
+.hero h2{
+
+margin:20px 0;
+
+}
+
+
+.hero p{
+
+max-width:700px;
+font-size:20px;
+line-height:1.6;
+
+}
+
+.profile-photo {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 1700px;
+    transform: translateY(-670px);
+}
+
+.buttons{
+
+margin-top:30px;
+
+}
+
+
+.btn{
+
+background:#E8E0E0;
+color:rgb(6,71,58);
+padding:12px 25px;
+border-radius:30px;
+text-decoration:none;
+margin-right:15px;
+
+}
+
+
+.second{
+
+background:#E8E0E0;
+color:rgb(6, 71, 58);
+}
+
+.certif-link {
+    font-weight: bold;
+    font-size: 30px;
+    display: block;
+    color:#dbb625;
+    text-decoration: none;
+}
+
+
+
+.title{
+
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+transform: translateY(-150px);
+}
+
+
+
+.cards{
+
+display:flex;
+gap:50px;
+justify-content:center;
+flex-wrap:wrap;
+transform: translateY(-150px);
+
+}
+
+
+
+
+.card{
+
+background:#E8E0E0;
+padding:30px;
+border-radius:15px;
+width:500px;
+transition:.3s;
+
+}
+
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+
+
+.card h2{
+
+color:rgb(6,71,58);
+
+}
+
+
+
+.card p{
+
+margin:20px 0;
+line-height:1.5;
+
+}
+
+
+
+.card a{
+color:rgb(6,71,58);
+
+}
+
+
+
+
+.stage-box{
+
+background:#E8E0E0;
+padding:20px;
+border-radius:20px;
+transform: translateY(-150px);
+
+}
+
+
+.stage-box li{
+
+margin:5px;
+
+}
+
+
+
+.contact{
+
+text-align:center;
+font-size:20px;
+transform: translateY(-150px);
+
+}
+
+
+
+footer{
+
+text-align:center;
+padding:30px;
+background:#E8E0E0;
+
+
+}
+
+
+
+
+@media(max-width:700px){
+
+nav ul{
+
+display:none;
+
+}
+
+
+.hero h1{
+
+font-size:40px;
+
+}
+
+
+.cards{
+
+flex-direction:column;
+align-items:center;
+
+}
+
+}
